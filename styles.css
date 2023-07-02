@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+ .container {
+            width: 100%;
+  
+          
+            display: flex;
+         
+         
+        }
+        
+        .star {
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid yellow;
+            border-top: 100px solid transparent;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+        }
+        
+        .star:after {
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid transparent;
+            border-top: 100px solid yellow;
+            position: absolute;
+            content: "";
+            top: 32px;
+            left: -50px;
+
+
+		}
